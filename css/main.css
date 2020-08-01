@@ -1,0 +1,60 @@
+.result_number {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 250px;
+    border-style: none;
+    margin-left: 35px;
+}
+
+.input_bnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plusMee {
+    width: 100px;
+    height: 75px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(171, 176, 180);
+    border-color: grey;
+}
+
+#plusMee:hover {
+    background-color: paleturquoise;
+    color: rgb(186, 175, 238)
+}
+#minusMee:hover {
+    background-color: paleturquoise;
+    color: rgb(186, 175, 238)
+}
+
+
+#number_input {
+    width: 340px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: 50px;
+    border-color: grey;
+    text-align: center;
+}
+
+#minusMee {
+    width: 100px;
+    height: 75px;
+    border-radius: 15px;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(171, 176, 180);
+    border-color: grey;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
